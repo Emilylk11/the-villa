@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Villa Season 1 Casting</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  /* single visual world: the villa at night. Hot pink neon on black, sand for body text, cyan for the one secondary accent. */
+  --night: #0b0a10;
+  --panel: #15131d;
+  --line: #2a2636;
+  --sand: #efe6d8;
+  --dune: #a79d8e;
+  --neon: #ff2d8c;
+  --cyan: #3ee6e0;
+  --display: 'Anton', Impact, 'Arial Narrow', sans-serif;
+  --body: 'Manrope', 'Segoe UI', Helvetica, Arial, sans-serif;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--night); color: var(--sand); font-family: var(--body); font-size: 17px; line-height: 1.55; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px 80px; }
+h1, h2 { font-family: var(--display); font-weight: 400; letter-spacing: .01em; text-wrap: balance; margin: 0; line-height: 1.02; }
+h1 { font-size: clamp(44px, 9vw, 84px); text-transform: uppercase; color: #fff; }
+h1 span { color: var(--neon); text-shadow: 0 0 18px rgba(255,45,140,.55), 0 0 2px #fff; }
+h2 { font-size: clamp(26px, 4.5vw, 36px); text-transform: uppercase; margin-top: 44px; }
+.kicker { font-weight: 800; letter-spacing: .18em; text-transform: uppercase; font-size: 12px; color: var(--cyan); margin-bottom: 14px; }
+.lede { font-size: 20px; color: var(--sand); max-width: 60ch; margin: 18px 0 0; }
+p { margin: 12px 0 0; max-width: 65ch; }
+ul { margin: 12px 0 0; padding-left: 20px; max-width: 65ch; }
+li { margin: 6px 0; }
+li::marker { color: var(--neon); }
+.facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 28px; }
+.fact { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+.fact b { display: block; font-family: var(--display); font-weight: 400; font-size: 34px; color: #fff; line-height: 1; }
+.fact span { color: var(--dune); font-size: 14px; }
+.cta { display: inline-block; margin-top: 22px; padding: 14px 22px; border-radius: 999px; background: var(--neon); color: #fff; font-weight: 800; text-decoration: none; box-shadow: 0 0 24px rgba(255,45,140,.45); }
+.cta:hover, .cta:focus-visible { filter: brightness(1.08); outline: 2px solid #fff; outline-offset: 2px; }
+.steps { counter-reset: s; list-style: none; padding: 0; margin-top: 16px; display: grid; gap: 10px; }
+.steps li { counter-increment: s; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px 14px 56px; position: relative; margin: 0; }
+.steps li::before { content: counter(s); position: absolute; left: 16px; top: 12px; font-family: var(--display); font-size: 26px; color: var(--neon); }
+.tpl { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; margin-top: 14px; }
+.tpl pre { margin: 0; white-space: pre-wrap; font-family: var(--body); color: var(--sand); }
+.row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-top: 12px; }
+button { font: inherit; font-weight: 800; padding: 10px 16px; border-radius: 999px; border: 1px solid var(--cyan); background: transparent; color: var(--cyan); cursor: pointer; }
+button:hover, button:focus-visible { background: rgba(62,230,224,.12); outline: 2px solid var(--cyan); outline-offset: 2px; }
+.note { color: var(--dune); font-size: 14px; }
+.rule { color: var(--dune); font-size: 15px; border-left: 3px solid var(--neon); padding-left: 12px; margin-top: 24px; }
+code { font-family: ui-monospace, Consolas, monospace; background: var(--panel); border: 1px solid var(--line); padding: 1px 6px; border-radius: 6px; font-size: 15px; }
+@media (max-width: 560px) { .facts { grid-template-columns: 1fr; } body { font-size: 16px; } }
+@media (prefers-reduced-motion: no-preference) { .cta { transition: filter .15s; } }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">Now casting · Season 1 · Open beta</div>
+  <h1>Be on a dating show <span>inside GTA.</span></h1>
+  <p class="lede">The Villa is a reality show you play. Ten islanders move into a villa on a FiveM server, pair up, win challenges, spill in the confessional, and face the Pairing every night. Season 1 is three episodes. We're casting the ten people who'll be in it.</p>
+
+  <div class="facts">
+    <div class="fact"><b>10</b><span>islanders in the cast</span></div>
+    <div class="fact"><b>3</b><span>episode nights, about 90 minutes each</span></div>
+    <div class="fact"><b>Free</b><span>Season Pass for everyone cast</span></div>
+  </div>
+
+  <a class="cta" href="https://discord.gg/fgsm5mNwcy">Apply in the Discord</a>
+  <p class="note">The Discord invite is discord.gg/fgsm5mNwcy. Applications are a message in #casting, template below.</p>
+
+  <h2>What an episode is</h2>
+  <p>You arrive by yacht. Natalia, the host, runs the night on a clock: a welcome, a challenge, time at the bar with Marco, confessionals in the booth off the west wing, and the Pairing, where someone stands up front and chooses. A bombshell can walk in at the hour. The confessionals come back at movie night on the big screen by the pool, and the season ends with a winning couple.</p>
+  <p>You play as your GTA character. Your voice is real; your face is not on camera. Confessionals are recorded and shown inside the villa, and the best ones are cut into clips for the show's TikTok.</p>
+
+  <h2>Who we're looking for</h2>
+  <ul>
+    <li>18 or older, no exceptions.</li>
+    <li>A PC with GTA V (Legacy) and FiveM installed, or willing to install FiveM before night one.</li>
+    <li>A microphone and a Discord account. You'll talk, a lot.</li>
+    <li>Free for the three episode nights, 8 PM Central, dates set with the cast in Discord.</li>
+    <li>Someone who commits to a bit. Flirts, schemes, has opinions in the confessional, and is decent to people when the cameras are off.</li>
+  </ul>
+
+  <h2>How to apply</h2>
+  <ol class="steps">
+    <li>Join the Discord and go to <code>#casting</code>.</li>
+    <li>Copy the template below, fill it in, post it there as one message.</li>
+    <li>We'll reply within two days. The cast gets a role, the schedule, and a short walkthrough night before episode one.</li>
+  </ol>
+
+  <div class="tpl">
+    <pre id="tpl">Villa Season 1 application
+Name or alias:
+Age (18+):
+Time zone:
+GTA V + FiveM installed? (yes / will install):
+Mic? (yes / no):
+Evenings you can do 8 PM Central (Fri / Sat / Sun / weekdays):
+Why you'd be good TV, in two sentences:
+One reality show you actually watch:</pre>
+    <div class="row">
+      <button type="button" id="copy">Copy the template</button>
+      <span class="note" id="copied"></span>
+    </div>
+  </div>
+
+  <p class="rule">The Villa is 18+ and not affiliated with any TV show or network. It runs on FiveM, the Rockstar-sanctioned multiplayer platform for GTA V. Nothing is sold to apply; cast members get the Season Pass free.</p>
+</main>
+<script>
+document.getElementById('copy').addEventListener('click', async () => {
+  const t = document.getElementById('tpl').innerText;
+  const out = document.getElementById('copied');
+  try { await navigator.clipboard.writeText(t); out.textContent = 'Copied. Paste it in #casting.'; }
+  catch (e) { out.textContent = 'Select the text above and copy it.'; }
+});
+</script>
+</body>
+</html>
